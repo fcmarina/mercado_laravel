@@ -1,1 +1,2 @@
-CRUD - Laravel framework
+CRUD
+Laravel framework
