@@ -4,5 +4,5 @@ Criando projeto:  composer create-project --prefer-dist laravel/laravel mercado_
 
 Local Development Server: php artisan serve
 
-De permissaao a pasta de log:  sudo chmod -R 777 /var/www/mercado_laravel/storage
+De permissaao a pasta storage:  sudo chmod -R 777 /var/www/mercado_laravel/storage
 
