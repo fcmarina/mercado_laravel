@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        mercado_laravel\Providers\AppServiceProvider::class,
+        mercado_laravel\Providers\AuthServiceProvider::class,
+        // mercado_laravel\Providers\BroadcastServiceProvider::class,
+        mercado_laravel\Providers\EventServiceProvider::class,
+        mercado_laravel\Providers\RouteServiceProvider::class,
 
     ],
 

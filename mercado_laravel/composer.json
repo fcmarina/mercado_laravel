@@ -23,7 +23,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "mercado_laravel\\": "app/"
         }
     },
     "autoload-dev": {

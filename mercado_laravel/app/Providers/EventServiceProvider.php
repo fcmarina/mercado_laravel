@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace mercado_laravel\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'App\Events\Event' => [
-            'App\Listeners\EventListener',
+        'mercado_laravel\Events\Event' => [
+            'mercado_laravel\Listeners\EventListener',
         ],
     ];
 
